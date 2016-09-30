@@ -1,6 +1,7 @@
 const elixir = require('laravel-elixir');
 
 require('laravel-elixir-vue');
+require('laravel-elixir-wiredep');
 
 /*
  |--------------------------------------------------------------------------
@@ -15,5 +16,6 @@ require('laravel-elixir-vue');
 
 elixir(mix => {
     mix.sass('app.scss')
-       .webpack('app.js');
+      .wiredep()
+      .webpack('app.js');
 });
