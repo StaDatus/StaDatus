@@ -1,0 +1,30 @@
+{
+  "name": "hello_laravel_heroku",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Samuel Ortiz Reina <iamsortiz@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/StaDatus/StaDatus-web",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.4"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  }
+}
